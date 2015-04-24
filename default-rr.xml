@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Vendors-->
+<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
+<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1"/>
+<project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
+
+<!--Devices-->
+<project path="device/motorola/titan" name="CyanogenMod/android_device_motorola_titan" remote="github" revision="cm-12.1" />
+<project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" remote="github" revision="cm-12.1" />
+<project path="device/sony/tsubasa" name="CyanogenMod/android_device_sony_tsubasa" remote="github" revision="cm-12.1" />
+<project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-12.1" />
+
+<!--Misc needs-->
+<project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-12.1" />
+<project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" remote="github" revision="cm-12.1" />
+<project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
+<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+
+
+<!--Devices commons-->
+<project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.1" />
+<project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-12.0" />
+<project path="device/sony/blue-common" name="CyanogenMod/android_device_sony_blue-common" remote="github" revision="cm-12.1" />
+
+<!--Kernels-->
+<project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
+<project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
+<project path="kernel/sony/msm8930" name="varunchitre15/android_kernel_sony_msm8930" remote="github" revision="cm-12.1" />
+<project path="kernel/sony/msm8x60" name="CyanogenMod/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
+
+<!--Z3 specific-->
+<project path="device/sony/z3" name="CyanogenMod/android_device_sony_z3" remote="github" revision="cm-12.1" />
+<project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
+<project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
+<project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="lp5.0" />
+
+</manifest>
