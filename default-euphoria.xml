@@ -7,7 +7,7 @@
 <!--Devices-->
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/yuga" name="rohanpurohit/android_device_sony_yuga" remote="github" revision="lp5.1" />
-  <project path="device/sony/taoshan" name="rohanpurohit/device_sony_taoshan" remote="github" revision="lp5.1" />
+  <project path="device/sony/taoshan" name="rohanpurohit/android_device_sony_taoshan" remote="github" revision="lp5.1" />
 <!--  <project path="device/sony/honami" name="CyanogenMod/android_device_sony_honami" remote="github" revision="cm-12.1" /> -->
   <project path="device/sony/sirius" name="CyanogenMod/android_device_sony_sirius" remote="github" revision="cm-12.1" />
   <project path="device/sony/z3" name="Team-Validus/android_device_sony_z3" remote="github" revision="lp5.0" />

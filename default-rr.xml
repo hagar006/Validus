@@ -34,6 +34,6 @@
 <project path="device/sony/z3" name="CyanogenMod/android_device_sony_z3" remote="github" revision="cm-12.1" />
 <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
 <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
-<project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="lp5.0" />
+<project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="m5kernel" />
 
 </manifest>
