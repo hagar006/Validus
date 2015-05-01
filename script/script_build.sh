@@ -10,6 +10,10 @@ export KBUILD_BUILD_HOST=Gothdroid
 cd /data/jenkins/workspace/ValidusRom
 
 #prebuilts/misc/linux-x86/ccache/ccache -M 60G
+echo -e *************************************;
+echo -e *  Script de Build par Gothdroid    *;
+echo -e *************************************;
+
 
 make clean
 
