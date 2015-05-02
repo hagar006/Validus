@@ -58,7 +58,7 @@
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="msm7x30" />
-  <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="msm7x30" />
+  <project name="TechExhibeo/device_semc_haida" path="device/semc/haida" remote="github" revision="validus" />
   <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="msm7x30" />
