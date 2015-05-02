@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="msm7x30"
+          fetch="https://github.com"
+          review="review.msm7x30.org"
+          revision="cm-12.1" />
+  
 
 <!--My removed/needed stuff-->
   <remove-project name="UBERTC/arm-linux-androideabi-4.8" />
