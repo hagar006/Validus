@@ -22,7 +22,7 @@ mkdir $OUT/kernel_zip
 
 # Création du dossier pour les scripts 
 
-mkdir -P $OUT/kernel_zip/META-INF/com/google/android
+mkdir $OUT/kernel_zip/META-INF/com/google/android
 
 # Copie de boot.img
 
