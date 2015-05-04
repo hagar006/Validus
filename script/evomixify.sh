@@ -22,7 +22,7 @@ rm -rf Evomix*.zip
 
 # Création du dossier pour les scripts 
 
-mkdir $OUT/kernel_zip/META-INF/com/google/android
+mkdir -p $OUT/kernel_zip/META-INF/com/google/android/
 
 # Copie de boot.img
 
