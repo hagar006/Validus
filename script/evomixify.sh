@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Définition du OUT
+
+OUT='/data/jenkins/workspace/ValidusRom/out/target/product/$device'
+
 # Ajout des permissions
 
 chmod -R 775 $OUT
