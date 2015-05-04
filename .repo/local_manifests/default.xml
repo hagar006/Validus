@@ -24,11 +24,15 @@
   <project path="device/sony/z3" name="TV-LP51-Devices/device_sony_z3" remote="github" revision="lp5.1" />
   <project path="device/sony/sirius" name="TV-LP51-Devices/device_sony_sirius" remote="github" revision="lp5.1" />
   <project path="device/sony/odin" name="TV-LP51-Devices/device_sony_odin" remote="github" revision="lp5.1" />
+  <project path="device/sony/pollux_windy" name="TV-LP51-Devices/device_sony_pollux_windy" remote="github" revision="lp5.1" />
+  <project path="device/sony/pollux" name="TV-LP51-Devices/device_sony_pollux" remote="github" revision="lp5.1" />
+  <project path="device/sony/honami" name="TV-LP51-Devices/device_sony_honami" remote="github" revision="lp5.1" />
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/xiaomi/armani" name="TV-LP51-Devices/device_xiaomi_armani" remote="github" revision="lp5.1" />
   <project path="device/motorola/titan" name="rohanpurohit/android_device_motorola_titan" remote="github" revision="validus-5.1" />
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
+  <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
   <project path="device/sony/msm8960-common" name="TV-LP51-Devices/device_sony_msm8960-common" remote="github" revision="lp5.1" />
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
@@ -37,6 +41,7 @@
 <!--Devices commons-->
   <project path="device/sony/fusion3-common" name="TV-LP51-Devices/device_sony_fusion3-common" remote="github" revision="lp5.1" />
   <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
+  <project path="device/sony/rhine-common" name="TV-LP51-Devices/device_sony_rhine-common" remote="github" revision="lp5.1" />
 <!--Kernels-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
   <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="m5kernel" />
