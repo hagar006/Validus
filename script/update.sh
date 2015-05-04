@@ -8,6 +8,7 @@ $file = *.xml
 $chemin = /data/jenkins/workspace/ValidusRom/.repo/local_manifests/
 
 if [ -f $chemin/$file ]; then
+  echo -e "Deleting all files in local_manifests"
   rm -rf $file
 fi
 
