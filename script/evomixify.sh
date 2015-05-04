@@ -40,4 +40,4 @@ wget https://raw.githubusercontent.com/EvoMix/updater_script/master/com/google/a
 cd $OUT/kernel_zip
 
 # Zip de l'archive
-zip -qr ../Evomix-$(date +%Y%m%d)-$device.zip ./
+zip -qr ../Evomix-$(date +%Y%m%d)-yuga.zip ./
