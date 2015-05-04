@@ -2,7 +2,7 @@
 
 # Définition du OUT
 
-OUT='/data/jenkins/workspace/ValidusRom/out/target/product/$device'
+OUT="/data/jenkins/workspace/ValidusRom/out/target/product/$device"
 
 # Ajout des permissions
 
