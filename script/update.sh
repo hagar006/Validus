@@ -4,7 +4,7 @@
 export PATH=/data/bin:$PATH
 
 # Remove all local_manifests in folder
-file=*.xml
+file=test.xml
 chemin=/data/jenkins/workspace/ValidusRom/.repo/local_manifests
 
 if [ -f $chemin/$file ]; then
