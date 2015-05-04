@@ -18,7 +18,7 @@ rm -rf Evomix*.zip
 
 # Création d'un dossier 
 
-mkdir $OUT/kernel_zip
+#mkdir $OUT/kernel_zip
 
 # Création du dossier pour les scripts 
 
