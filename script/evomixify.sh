@@ -2,7 +2,7 @@
 
 # Définition du OUT
 
-OUT="/data/jenkins/workspace/ValidusRom/out/target/product/$device"
+OUT="/data/jenkins/workspace/ValidusRom/out/target/product/yuga"
 
 # Ajout des permissions
 
@@ -18,7 +18,7 @@ rm -rf Evomix*.zip
 
 # Création d'un dossier 
 
-mkdir -p $OUT/kernel_zip
+mkdir $OUT/kernel_zip
 
 # Création du dossier pour les scripts 
 
