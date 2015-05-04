@@ -9,5 +9,5 @@ wget https://raw.githubusercontent.com/EvoMix/updater_script/master/com/google/a
 echo "Fetching updater-script..."
 wget https://raw.githubusercontent.com/EvoMix/updater_script/master/com/google/android/updater-script
 cd $OUT/kernel_zip
-zip -qr ../evomix-$(date +%Y%m%d)-DEVICE.zip ./
+zip -qr ../evomix-$(date +%Y%m%d)-Yuga.zip ./
 croot
