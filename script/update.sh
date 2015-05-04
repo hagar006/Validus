@@ -4,8 +4,8 @@
 export PATH=/data/bin:$PATH
 
 # Remove all local_manifests in folder
-file='*.xml'
-chemin='/data/jenkins/workspace/ValidusRom/.repo/local_manifests/'
+file=*.xml
+chemin=/data/jenkins/workspace/ValidusRom/.repo/local_manifests
 
 if [ -f $chemin/$file ]; then
   echo -e "Deleting all files in local_manifests"
