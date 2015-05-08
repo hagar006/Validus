@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+<!--Legacy remote tracking-->
   <remote name="msm7x30"
           fetch="https://github.com"
           review="review.msm7x30.org"
           revision="cm-12.1" />
-  
-
 <!--My removed/needed stuff-->
   <remove-project name="UBERTC/arm-linux-androideabi-4.8" />
   <remove-project name="UBERTC/arm-linux-androideabi-4.9" />
@@ -27,6 +27,8 @@
   <project path="device/sony/pollux_windy" name="TV-LP51-Devices/device_sony_pollux_windy" remote="github" revision="lp5.1" />
   <project path="device/sony/pollux" name="TV-LP51-Devices/device_sony_pollux" remote="github" revision="lp5.1" />
   <project path="device/sony/honami" name="TV-LP51-Devices/device_sony_honami" remote="github" revision="lp5.1" />
+  <project path="device/sony/amami" name="TV-LP51-Devices/device_sony_amami" remote="github" revision="lp5.1" />
+  <project path="device/sony/togari" name="TV-LP51-Devices/device_sony_togari" remote="github" revision="lp5.1" />
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/xiaomi/armani" name="TV-LP51-Devices/device_xiaomi_armani" remote="github" revision="lp5.1" />
   <project path="device/motorola/titan" name="rohanpurohit/android_device_motorola_titan" remote="github" revision="validus-5.1" />
@@ -51,13 +53,9 @@
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 
-
-
 <!-- Legacy Thingy -->
-
 <project name="LegacyXperia/local_manifests" path="vendor/extra" remote="msm7x30" />
-
-  <!-- LegacyXperia projects -->
+<!-- LegacyXperia projects -->
   <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
 
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
@@ -78,20 +76,13 @@
   <project name="LegacyXperia/android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="msm7x30" />
 
   <project name="LegacyXperia/proprietary_vendor_semc" path="vendor/semc" remote="msm7x30" />
-
-  <!-- msm7x30 projects -->
+<!-- msm7x30 projects -->
   <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" />
-
   <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
-
-  <!-- CyanogenMod projects -->
-  <!-- <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />-->
-
-  <!-- AOSP projects-->
+<!-- AOSP projects-->
   <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="master" />
-
 
 </manifest>
