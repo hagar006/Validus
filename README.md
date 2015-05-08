@@ -2,8 +2,6 @@ Validus
 
 How to init and launch scripts to build:
 
-$ mkdir -p validus 
-
 $ git clone https://github.com/Gothdroid-Team-For-Xperia/validus.git validus
 
 $ chmod -R 775 validus
