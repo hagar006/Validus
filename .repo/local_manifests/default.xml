@@ -4,8 +4,7 @@
 <!--Legacy remote tracking-->
   <remote name="msm7x30"
           fetch="https://github.com"
-          review="review.msm7x30.org"
-          revision="cm-12.1" />
+          review="review.msm7x30.org"/>
 <!--My removed/needed stuff-->
   <remove-project name="UBERTC/arm-linux-androideabi-4.8" />
   <remove-project name="UBERTC/arm-linux-androideabi-4.9" />
