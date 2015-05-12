@@ -32,8 +32,8 @@
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <project path="device/xiaomi/armani" name="TV-LP51-Devices/device_xiaomi_armani" remote="github" revision="lp5.1" />
   <project path="device/motorola/titan" name="rohanpurohit/android_device_motorola_titan" remote="github" revision="validus-5.1" />
-  <project path="device/google/sprout4" name="varunchitre15/android_device_google_sprout4" remote="github" revision="cm-12.1" />
-  <project path="device/google/sprout8" name="varunchitre15/android_device_google_sprout8" remote="github" revision="cm-12.1" />
+  <project path="device/google/sprout4" name="hafeez90/android_device_google_sprout4" remote="github" revision="validus" />
+  <project path="device/google/sprout8" name="hafeez90/android_device_google_sprout8" remote="github" revision="validus" />
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
