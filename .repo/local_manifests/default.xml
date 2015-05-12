@@ -16,10 +16,9 @@
 <!--Vendors-->
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
- <!-- <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />-->
+  <project path="vendor/xiaomi" name="TechExhibeo/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
   <project path="vendor/google" name="varunchitre15/proprietary_vendor_google" remote="github" revision="cm-12.1" />
-  <project path="vendor/xiaomi" name="CM-Cancro/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
   
 <!--Devices-->
   <project path="device/sony/yuga" name="TV-LP51-Devices/device_sony_yuga" remote="github" revision="lp5.1" />
