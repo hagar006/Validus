@@ -19,7 +19,6 @@
   <project path="vendor/xiaomi" name="TechExhibeo/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
   <project path="vendor/google" name="varunchitre15/proprietary_vendor_google" remote="github" revision="cm-12.1" />
-  
 <!--Devices-->
   <project path="device/sony/yuga" name="TV-LP51-Devices/device_sony_yuga" remote="github" revision="lp5.1" />
   <project path="device/sony/z3" name="TV-LP51-Devices/device_sony_z3" remote="github" revision="lp5.1" />
@@ -37,9 +36,8 @@
   <project path="device/google/sprout8" name="hafeez90/android_device_google_sprout8" remote="github" revision="validus" />
   <project path="device/xiaomi/cancro" name="TechExhibeo/android_device_xiaomi_cancro" remote="github" revision="validus5.1" />
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
-  
 <!--Misc needs-->
-  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
+  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
   <project path="device/sony/msm8960-common" name="TV-LP51-Devices/device_sony_msm8960-common" remote="github" revision="lp5.1" />
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
@@ -60,7 +58,6 @@
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
   <project path="kernel/mediatek/sprout" name="varunchitre15/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
   <project path="kernel/xiaomi/cancro" name="CM-Cancro/android_kernel_xiaomi_cancro" remote="github" revision="cm-12.1" />
-  
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 
