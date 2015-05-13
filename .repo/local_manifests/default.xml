@@ -8,10 +8,8 @@
 <!--My removed/needed stuff-->
   <remove-project name="UBERTC/arm-linux-androideabi-4.8" />
   <remove-project name="UBERTC/arm-linux-androideabi-4.9" />
-  <remove-project name="CyanogenMod/android_system_extras" />
   <remove-project name="android_device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy" name="Alx31/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
-  <project path="system/extras" name="Alx31/android_system_extras" remote="github" revision="cm-12.1" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.1.1_r1" />-->
 <!--Vendors-->
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
