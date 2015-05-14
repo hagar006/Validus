@@ -36,6 +36,7 @@
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
   <project path="device/motorola/condor" name="koradiavatsal/android_device_motorola_condor" remote="github" revision="validus" />
   <project path="device/motorola/falcon" name="koradiavatsal/android_device_motorola_falcon" remote="github" revision="validus" />
+  <project path="device/sony/taoshan" name="Anik1199/device_sony_taoshan" remote="github" revision="lp5.1" />
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
@@ -59,6 +60,7 @@
   <project path="kernel/mediatek/sprout" name="varunchitre15/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
   <project path="kernel/xiaomi/cancro" name="CM-Cancro/android_kernel_xiaomi_cancro" remote="github" revision="cm-12.1" />
   <project path="kernel/motorola/msm8610" name="CyanogenMod/android_kernel_motorola_msm8610" remote="github" revision="cm-12.1" />
+  <project path="kernel/sony/msm8930" name="varunchitre15/android_kernel_sony_msm8930" remote="github" revision="cm-12.1" />
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 
