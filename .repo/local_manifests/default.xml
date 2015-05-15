@@ -38,7 +38,7 @@
   <project path="device/motorola/falcon" name="koradiavatsal/android_device_motorola_falcon" remote="github" revision="validus" />
   <project path="device/sony/taoshan" name="Anik1199/device_sony_taoshan" remote="github" revision="lp5.1" />
 <!--Misc needs-->
-  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
+  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
   <project path="device/sony/msm8960-common" name="TV-LP51-Devices/device_sony_msm8960-common" remote="github" revision="lp5.1" />
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
@@ -53,7 +53,7 @@
   <project path="device/google/sprout-common" name="varunchitre15/android_device_google_sprout-common" remote="github" revision="cm-12.1" />
 <!--Kernels-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
-  <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="m5kernel" />
+  <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="lp5.1_test" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.1" />
   <project path="kernel/xiaomi/armani" name="TechExhibeo/kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
