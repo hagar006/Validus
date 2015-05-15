@@ -35,6 +35,8 @@ BLANCLAIR="\\033[1;08m"
 JAUNE="\\033[1;33m"
 CYAN="\\033[1;36m"
 
+JVM=`java -version`
+
 # Define home and rom
 home=/data/jenkins/workspace/ValidusRom
 #rom=bliss
@@ -46,8 +48,8 @@ export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=Gothdroid
 export KBUILD_BUILD_HOST=Gothdroid.com
-export JAVA_HOME=$(realpath ../jdk1.7.0_79)
-echo -e "$ROUGE java -version $NORMAL"
+export JAVA_HOME=/usr/bin/java
+echo -e "$ROUGE $JVM $NORMAL"
 
 # Return to home
 cd $home
