@@ -46,6 +46,8 @@ export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=Gothdroid
 export KBUILD_BUILD_HOST=Gothdroid.com
+export JAVA_HOME=$(realpath ../jdk1.7.0_79)
+echo -e "$ROUGE java -version $NORMAL"
 
 # Return to home
 cd $home
