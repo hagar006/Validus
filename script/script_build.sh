@@ -14,15 +14,6 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-# Define java 
-
-# Use local Java Development Kit 7
-    if (( $(java -version 2>&1 | grep version | cut -f2 -d".") > 7 )); then
-       echo "Using local JDK 7..."
-       export JAVA_HOME=$(realpath ../jdk1.7.0_79);
-    fi
-
-
 # Define colors
 
 VERT="\\033[1;32m"
@@ -48,8 +39,9 @@ export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=Gothdroid
 export KBUILD_BUILD_HOST=Gothdroid.com
-export JAVA_HOME=/usr/bin/java
-echo -e "$ROUGE $JVM $NORMAL"
+
+
+echo -e " You are using $ROUGE $JVM $NORMAL"
 
 # Return to home
 cd $home
