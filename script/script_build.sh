@@ -223,6 +223,6 @@ echo ""
 echo -e "$ROUGE Lunching device $NORMAL"
 lunch "validus_$device-userdebug"
 
-echo -e "$ROUGE Starting compilation: $BLEU Building BlissPop $device $NORMAL"
+echo -e "$ROUGE Starting compilation: $BLEU Building Validus $device $NORMAL"
     echo ""
     make validus -j"$opt_jobs"
