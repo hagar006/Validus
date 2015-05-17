@@ -34,7 +34,7 @@
   <project path="device/google/sprout8" name="hafeez90/android_device_google_sprout8" remote="github" revision="validus" />
   <project path="device/xiaomi/cancro" name="TechExhibeo/android_device_xiaomi_cancro" remote="github" revision="validus5.1" />
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
-  <project path="device/motorola/condor" name="koradiavatsal/android_device_motorola_condor" remote="github" revision="validus" />
+  <project path="device/motorola/condor" name="TV-LP51-Devices/device_motorola_condor" remote="github" revision="lp5.1" />
   <project path="device/motorola/falcon" name="koradiavatsal/android_device_motorola_falcon" remote="github" revision="validus" />
   <project path="device/sony/taoshan" name="Anik1199/device_sony_taoshan" remote="github" revision="lp5.1" />
 <!--Misc needs-->
