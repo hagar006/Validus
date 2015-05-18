@@ -97,14 +97,14 @@
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="master" />
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx aries test build XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
- <!-- device -->
-  <project name="TechExhibeo/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-5.1.1"$
-  <project name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision$
+<!-- device -->
+  <project name="mitwo-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-5.1.1" />
+  <project name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="android-5.1.1" />
 
   <!-- kernel -->
-  <project name="mitwo-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" revision="android-5.1.$
+  <project name="mitwo-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" revision="android-5.1.1" />
 
   <!-- proprietaries -->
   <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-5.1.1" />
-
+  
 </manifest>
