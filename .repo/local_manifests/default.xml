@@ -98,7 +98,7 @@
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx aries test build XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
 <!-- device -->
-  <project name="mitwo-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-5.1.1" />
+  <project name="TechExhibeo/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-5.1.1" />
   <project name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="android-5.1.1" />
 
   <!-- kernel -->
