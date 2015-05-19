@@ -14,7 +14,7 @@
 <!--Vendors-->
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
- <!-- <project path="vendor/xiaomi" name="TechExhibeo/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />-->
+  <project path="vendor/xiaomi" name="TechExhibeo/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
   <project path="vendor/google" name="varunchitre15/proprietary_vendor_google" remote="github" revision="cm-12.1" />
 <!--Devices-->
@@ -105,6 +105,6 @@
   <project name="mitwo-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" revision="android-5.1.1" />
 
   <!-- proprietaries -->
-  <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-5.1.1" />
+ <!-- <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-5.1.1" />-->
   
 </manifest>
