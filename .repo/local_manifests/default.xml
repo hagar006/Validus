@@ -98,11 +98,12 @@
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx aries test build XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
 <!-- device -->
-  <project name="TechExhibeo/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="android-5.1.1" />
+  <project name="TechExhibeo/android_device_xiaomi_aries-1" path="device/xiaomi/aries" remote="github" revision="validus5.1" />
   <project name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="android-5.1.1" />
 
   <!-- kernel -->
   <project name="mitwo-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" revision="android-5.1.1" />
+  <project name="CyanogenMod/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="cm-11.0" />
 
   <!-- proprietaries -->
  <!-- <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="android-5.1.1" />-->
