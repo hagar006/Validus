@@ -168,7 +168,7 @@ if [ "$opt_clean" -eq 1 ]; then
     echo ""
 elif [ "$opt_clean" -eq 2 ]; then
     . build/envsetup.sh
-    lunch "bliss_$device-userdebug"
+    lunch "validus_$device-userdebug"
     make installclean >/dev/null
     echo -e "$BLEU Output directory is: $ROUGE Dirty $NORMAL"
     echo ""
