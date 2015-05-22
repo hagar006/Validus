@@ -36,7 +36,8 @@
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
   <project path="device/motorola/condor" name="TV-LP51-Devices/device_motorola_condor" remote="github" revision="lp5.1" />
   <project path="device/motorola/falcon" name="koradiavatsal/android_device_motorola_falcon" remote="github" revision="validus" />
-  <project path="device/sony/taoshan" name="Anik1199/device_sony_taoshan" remote="github" revision="lp5.1" />
+  <project path="device/sony/taoshan" name="rohanpurohit/android_device_sony_taoshan" remote="github" revision="lp5.1-validus" />
+  
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
@@ -46,11 +47,13 @@
   <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" remote="github" revision="cm-12.1" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.1" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-12.1" />
+  
 <!--Devices commons-->
   <project path="device/sony/fusion3-common" name="TV-LP51-Devices/device_sony_fusion3-common" remote="github" revision="lp5.1" />
   <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
   <project path="device/sony/rhine-common" name="TV-LP51-Devices/device_sony_rhine-common" remote="github" revision="lp5.1" />
   <project path="device/google/sprout-common" name="varunchitre15/android_device_google_sprout-common" remote="github" revision="cm-12.1" />
+  
 <!--Kernels-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
   <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="lp5.1_kexec" />
@@ -60,7 +63,8 @@
   <project path="kernel/mediatek/sprout" name="varunchitre15/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
   <project path="kernel/xiaomi/cancro" name="emceethemouth/kernel_cancro" remote="github" revision="cm-12.1" />
   <project path="kernel/motorola/msm8610" name="CyanogenMod/android_kernel_motorola_msm8610" remote="github" revision="cm-12.1" />
-  <project path="kernel/sony/msm8930" name="varunchitre15/android_kernel_sony_msm8930" remote="github" revision="cm-12.1" />
+  <project path="kernel/sony/msm8930" name="rohanpurohit/android_kernel_sony_msm8930" remote="github" revision="lp5.1" />
+  
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 
