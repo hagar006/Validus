@@ -35,7 +35,7 @@
   <project path="device/xiaomi/cancro" name="TV-LP51-Devices/device_xiaomi_cancro" remote="github" revision="lp5.1" />
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
   <project path="device/motorola/condor" name="TV-LP51-Devices/device_motorola_condor" remote="github" revision="lp5.1" />
-  <project path="device/motorola/falcon" name="koradiavatsal/android_device_motorola_falcon" remote="github" revision="validus" />
+  <project path="device/motorola/falcon" name="TV-LP51-Devices/device_motorola_falcon" remote="github" revision="lp5.1" />
   <project path="device/sony/taoshan" name="rohanpurohit/android_device_sony_taoshan" remote="github" revision="lp5.1-validus" />
   
 <!--Misc needs-->
