@@ -41,7 +41,7 @@
   <!--Moto-->
   <project path="device/motorola/condor" name="TV-LP51-Devices/device_motorola_condor" remote="github" revision="lp5.1" />
   <project path="device/motorola/falcon" name="TV-LP51-Devices/device_motorola_falcon" remote="github" revision="lp5.1" />
-  <project path="device/motorola/titan" name="rohanpurohit/android_device_motorola_titan" remote="github" revision="validus-5.1" />
+  <project path="device/motorola/titan" name="TV-LP51-Devices/device_motorola_titan" remote="github" revision="lp5.1" />
   <project path="device/motorola/thea" name="koradiavatsal/android_device_motorola_thea" remote="github" revision="validus" />
   <!--Xperia Legacy-->
   <project name="LegacyXperia/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="msm7x30" />
