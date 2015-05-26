@@ -23,7 +23,7 @@
   <project name="LegacyXperia/proprietary_vendor_semc" path="vendor/semc" remote="msm7x30" />
 
 <!--Devices-->
-  <!--Sony Z line-->
+  <!--Sony-->
   <project path="device/sony/yuga" name="TV-LP51-Devices/device_sony_yuga" remote="github" revision="lp5.1" />
   <project path="device/sony/z3" name="TV-LP51-Devices/device_sony_z3" remote="github" revision="lp5.1" />
   <project path="device/sony/sirius" name="TV-LP51-Devices/device_sony_sirius" remote="github" revision="lp5.1" />
@@ -33,6 +33,7 @@
   <project path="device/sony/honami" name="TV-LP51-Devices/device_sony_honami" remote="github" revision="lp5.1" />
   <project path="device/sony/amami" name="TV-LP51-Devices/device_sony_amami" remote="github" revision="lp5.1" />
   <project path="device/sony/togari" name="TV-LP51-Devices/device_sony_togari" remote="github" revision="lp5.1" />
+  <project path="device/sony/taoshan" name="rohanpurohit/device_sony_taoshan" remote="github" revision="lp5.1" />
   <!--Nexus-->
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <!--MTK-->
