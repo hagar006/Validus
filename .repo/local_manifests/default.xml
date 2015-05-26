@@ -57,7 +57,6 @@
   <project name="LegacyXperia/android_device_semc_urushi" path="device/semc/urushi" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_phoenix" path="device/semc/phoenix" remote="msm7x30" />
   <project name="LegacyXperia/android_device_semc_zeus" path="device/semc/zeus" remote="msm7x30" />
-  <project path="device/sony/taoshan" name="rohanpurohit/android_device_sony_taoshan" remote="github" revision="lp5.1-validus" />
   <!--Xiaomi-->
   <project name="TechExhibeo/android_device_xiaomi_aries-1" path="device/xiaomi/aries" remote="github" revision="validus5.1" />
   <project path="device/xiaomi/armani" name="TV-LP51-Devices/device_xiaomi_armani" remote="github" revision="lp5.1" />
