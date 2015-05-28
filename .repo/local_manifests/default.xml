@@ -22,6 +22,7 @@
   <project path="vendor/google" name="varunchitre15/proprietary_vendor_google" remote="github" revision="cm-12.1" />
   <project name="LegacyXperia/proprietary_vendor_semc" path="vendor/semc" remote="msm7x30" />
   <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
+  <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
 
 <!--Devices-->
   <!--Sony-->
@@ -62,6 +63,8 @@
   <project name="TechExhibeo/android_device_xiaomi_aries-1" path="device/xiaomi/aries" remote="github" revision="validus5.1" />
   <project path="device/xiaomi/armani" name="TV-LP51-Devices/device_xiaomi_armani" remote="github" revision="lp5.1" />
   <project path="device/xiaomi/cancro" name="TV-LP51-Devices/device_xiaomi_cancro" remote="github" revision="lp5.1" />
+  <!--YU-->
+  <project path="device/yu/tomato" name="TV-LP51-Devices/device_yu_tomato" remote="github" revision="lp5.1-new" />
   
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
@@ -75,6 +78,9 @@
   <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
   <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
+  <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="elliekimpot/aarch64-linux-android-4.9-linaro" revision="master" remote="github" />
   
 <!--Devices commons-->
   <project path="device/sony/fusion3-common" name="TV-LP51-Devices/device_sony_fusion3-common" remote="github" revision="lp5.1" />
@@ -85,6 +91,7 @@
   <project name="LegacyXperia/android_device_semc_zeus-common" path="device/semc/zeus-common" remote="msm7x30" />
   <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" />
   <project name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="android-5.1.1" />
+  <project path="device/cyanogen/msm8939-common" name="TV-LP51-Devices/device_cyanogen_msm8939-common" remote="github" revision="lp5.1" />
   
 <!--Kernels-->
   <!--Sony-->
@@ -104,6 +111,8 @@
   <project path="kernel/motorola/msm8610" name="CyanogenMod/android_kernel_motorola_msm8610" remote="github" revision="cm-12.1" />
   <!--MTK-->
   <project path="kernel/mediatek/sprout" name="varunchitre15/android_kernel_mediatek_sprout" remote="github" revision="cm-12.1" />
+  <!--YU-->
+  <project path="kernel/cyanogen/msm8916" name="CyanogenMod/android_kernel_cyanogen_msm8916" remote="github" revision="cm-12.1" />
 
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
