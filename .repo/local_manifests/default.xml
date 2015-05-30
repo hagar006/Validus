@@ -30,6 +30,7 @@
   <!--Sony-->
   <project path="device/sony/yuga" name="TV-LP51-Devices/device_sony_yuga" remote="github" revision="lp5.1" />
   <project path="device/sony/z3" name="TV-LP51-Devices/device_sony_z3" remote="github" revision="lp5.1" />
+  <project path="device/sony/z3c" name="TV-LP51-Devices/device_sony_z3c" remote="github" revision="lp5.1" />
   <project path="device/sony/sirius" name="TV-LP51-Devices/device_sony_sirius" remote="github" revision="lp5.1" />
   <project path="device/sony/odin" name="TV-LP51-Devices/device_sony_odin" remote="github" revision="lp5.1" />
   <project path="device/sony/pollux_windy" name="TV-LP51-Devices/device_sony_pollux_windy" remote="github" revision="lp5.1" />
