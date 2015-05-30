@@ -70,7 +70,7 @@
   <project path="device/yu/tomato" name="TV-LP51-Devices/device_yu_tomato" remote="github" revision="lp5.1-new" />
   
 <!--Misc needs-->
-  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="EvoMix" />
+  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
   <project path="device/sony/msm8960-common" name="TV-LP51-Devices/device_sony_msm8960-common" remote="github" revision="lp5.1" />
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
@@ -98,7 +98,7 @@
 <!--Kernels-->
   <!--Sony-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
-  <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="lp5.1_kexec" />
+  <project path="kernel/sony/msm8974" name="Validus-Kernel/kernel_sony_msm8974" remote="github" revision="m5kernel" />
   <project path="kernel/sony/msm8930" name="rohanpurohit/android_kernel_sony_msm8930" remote="github" revision="5.1-stable" />
   <project name="LegacyXperia/android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="msm7x30" />
   <!--Google-->
