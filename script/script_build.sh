@@ -30,7 +30,7 @@ JVM=`java -version`
 
 # Define home and rom
 home=/data/jenkins/workspace/ValidusRom
-#rom=bliss
+#rom=validus
 
 # Differents necessary export
 export PATH=/data/bin:$PATH
