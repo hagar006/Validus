@@ -187,12 +187,12 @@ if [ "$opt_sync" -eq 1 ]; then
     # Sync with latest sources
     echo -e "$ROUGE Fetching latest sources $NORMAL"
     
-    # Remove roomservice.xml in folder
-        file=roomservice.xml
+    # Remove validus_manifest.xml in folder
+        file=validus_*.xml
         cd $home/.repo/local_manifests/
 
             if [ -f $file ]; then
-                echo -e "$ROUGE Deleting roomservice.xml inside local_manifests $NORMAL"
+                echo -e "$ROUGE Deleting validus_manifest.xml inside local_manifests $NORMAL"
                 rm -rf $file
                 
             else
