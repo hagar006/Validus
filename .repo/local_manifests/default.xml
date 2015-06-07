@@ -33,7 +33,7 @@
   <project path="device/yu/tomato" name="TV-LP51-Devices/device_yu_tomato" remote="github" revision="lp5.1-new" />
   
 <!--Misc needs-->
-  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
+  <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="m5_bootsplash" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
   <project path="device/sony/msm8960-common" name="TV-LP51-Devices/device_sony_msm8960-common" remote="github" revision="lp5.1" />
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
