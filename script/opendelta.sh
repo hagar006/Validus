@@ -22,8 +22,8 @@ HOME=/data/jenkins/workspace/ValidusRom
 
 BIN_JAVA=java
 BIN_MINSIGNAPK=$HOME/delta/minsignapk.jar
-BIN_XDELTA=$HOME/jni/xdelta3
-BIN_ZIPADJUST=$HOME/jni/zipadjust
+BIN_XDELTA=/data/jni/xdelta3
+BIN_ZIPADJUST=/data/jni/zipadjust
 
 FILE_MATCH=Validus-*.zip
 PATH_CURRENT=$HOME/out/target/product/$DEVICE
