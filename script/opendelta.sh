@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Script to generate delta files for OpenDelta - by Jorrit 'Chainfire' Jongma
+# Modified by Gothdroid to adapt on Validus Rom for Team GZR
 
 # Get device either from $DEVICE set by calling script, or first parameter
 
