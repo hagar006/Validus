@@ -7,4 +7,4 @@ DAY=$(date +%Y%m%d)
 
 cd $HOME/out/target/product/$DEVICE
 
-mv validus-*.zip Validus-Build-$VERSION-$DAY.zip
+mv Validus-*.zip Validus-Build-$VERSION-$DAY.zip
