@@ -94,9 +94,9 @@ $BIN_ZIPADJUST --decompress $PATH_CURRENT/$FILE_CURRENT $HOME2/work/current.zip
 $BIN_ZIPADJUST --decompress $PATH_LAST/$FILE_LAST $HOME2/work/last.zip
 $BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 $HOME2/work/current.zip $HOME2/work/current_signed.zip
 $BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 $HOME2/work/last.zip $HOME2/work/last_signed.zip
-SRC_BUFF=$(nextPowerOf2 $(getFileSize work/current.zip));
+SRC_BUFF=$(nextPowerOf2 $(getFileSize $HOME2/work/current.zip));
 $BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s $HOME2/work/last.zip $HOME2/work/current.zip $HOME2/out/$FILE_LAST_BASE.update
-SRC_BUFF=$(nextPowerOf2 $(getFileSize work/current_signed.zip));
+SRC_BUFF=$(nextPowerOf2 $(getFileSize $HOME2/work/current_signed.zip));
 $BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s $HOME2/work/current.zip $HOME2/work/current_signed.zip $HOME2/out/$FILE_LAST_BASE.sign
 
 MD5_CURRENT=$(getFileMD5 $PATH_CURRENT/$FILE_CURRENT)
