@@ -19,6 +19,7 @@ fi
 # ------ CONFIGURATION ------
 
 HOME=/data/jenkins/workspace/ValidusRom
+HOME2=/data/jenkins/workspace/ValidusRom/extra
 
 BIN_JAVA=java
 BIN_MINSIGNAPK=$HOME/delta/minsignapk.jar
@@ -84,39 +85,39 @@ if [ "$FILE_LAST" == "$FILE_CURRENT" ]; then
 	exit 1
 fi
 
-rm -rf work
-mkdir work
-rm -rf out
-mkdir out
+rm -rf $HOME2/work
+mkdir -p $HOME2/work
+rm -rf $HOME2/out
+mkdir -p $HOME2/out
 
-$BIN_ZIPADJUST --decompress $PATH_CURRENT/$FILE_CURRENT work/current.zip
-$BIN_ZIPADJUST --decompress $PATH_LAST/$FILE_LAST work/last.zip
-$BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 work/current.zip work/current_signed.zip
-$BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 work/last.zip work/last_signed.zip
+$BIN_ZIPADJUST --decompress $PATH_CURRENT/$FILE_CURRENT $HOME2/work/current.zip
+$BIN_ZIPADJUST --decompress $PATH_LAST/$FILE_LAST $HOME2/work/last.zip
+$BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 $HOME2/work/current.zip $HOME2/work/current_signed.zip
+$BIN_JAVA -Xmx1024m -jar $BIN_MINSIGNAPK $KEY_X509 $KEY_PK8 $HOME2/work/last.zip $HOME2/work/last_signed.zip
 SRC_BUFF=$(nextPowerOf2 $(getFileSize work/current.zip));
-$BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s work/last.zip work/current.zip out/$FILE_LAST_BASE.update
+$BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s $HOME2/work/last.zip $HOME2/work/current.zip $HOME2/out/$FILE_LAST_BASE.update
 SRC_BUFF=$(nextPowerOf2 $(getFileSize work/current_signed.zip));
-$BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s work/current.zip work/current_signed.zip out/$FILE_LAST_BASE.sign
+$BIN_XDELTA -B ${SRC_BUFF} -9evfS none -s $HOME2/work/current.zip $HOME2/work/current_signed.zip $HOME2/out/$FILE_LAST_BASE.sign
 
 MD5_CURRENT=$(getFileMD5 $PATH_CURRENT/$FILE_CURRENT)
-MD5_CURRENT_STORE=$(getFileMD5 work/current.zip)
-MD5_CURRENT_STORE_SIGNED=$(getFileMD5 work/current_signed.zip)
+MD5_CURRENT_STORE=$(getFileMD5 $HOME2/work/current.zip)
+MD5_CURRENT_STORE_SIGNED=$(getFileMD5 $HOME2/work/current_signed.zip)
 MD5_LAST=$(getFileMD5 $PATH_LAST/$FILE_LAST)
-MD5_LAST_STORE=$(getFileMD5 work/last.zip)
-MD5_LAST_STORE_SIGNED=$(getFileMD5 work/last_signed.zip)
-MD5_UPDATE=$(getFileMD5 out/$FILE_LAST_BASE.update)
-MD5_SIGN=$(getFileMD5 out/$FILE_LAST_BASE.sign)
+MD5_LAST_STORE=$(getFileMD5 $HOME2/work/last.zip)
+MD5_LAST_STORE_SIGNED=$(getFileMD5 $HOME2/work/last_signed.zip)
+MD5_UPDATE=$(getFileMD5 $HOME2/out/$FILE_LAST_BASE.update)
+MD5_SIGN=$(getFileMD5 $HOME2/out/$FILE_LAST_BASE.sign)
 
 SIZE_CURRENT=$(getFileSize $PATH_CURRENT/$FILE_CURRENT)
-SIZE_CURRENT_STORE=$(getFileSize work/current.zip)
-SIZE_CURRENT_STORE_SIGNED=$(getFileSize work/current_signed.zip)
+SIZE_CURRENT_STORE=$(getFileSize $HOME2/work/current.zip)
+SIZE_CURRENT_STORE_SIGNED=$(getFileSize $HOME2/work/current_signed.zip)
 SIZE_LAST=$(getFileSize $PATH_LAST/$FILE_LAST)
-SIZE_LAST_STORE=$(getFileSize work/last.zip)
-SIZE_LAST_STORE_SIGNED=$(getFileSize work/last_signed.zip)
-SIZE_UPDATE=$(getFileSize out/$FILE_LAST_BASE.update)
-SIZE_SIGN=$(getFileSize out/$FILE_LAST_BASE.sign)
+SIZE_LAST_STORE=$(getFileSize $HOME2/work/last.zip)
+SIZE_LAST_STORE_SIGNED=$(getFileSize $HOME2/work/last_signed.zip)
+SIZE_UPDATE=$(getFileSize $HOME2/out/$FILE_LAST_BASE.update)
+SIZE_SIGN=$(getFileSize $HOME2/out/$FILE_LAST_BASE.sign)
 
-DELTA=out/$FILE_LAST_BASE.delta
+DELTA=$HOME2/out/$FILE_LAST_BASE.delta
 
 echo "{" > $DELTA
 echo "  \"version\": 1," >> $DELTA
@@ -154,12 +155,12 @@ echo "      \"md5_official\": \"$MD5_CURRENT\"" >> $DELTA
 echo "  }" >> $DELTA
 echo "}" >> $DELTA
 
-mkdir publish >/dev/null 2>/dev/null
-mkdir publish/$DEVICE >/dev/null 2>/dev/null
-cp out/* publish/$DEVICE/.
+mkdir /data/jenkins/workspace/ValidusRom/script/publish >/dev/null 2>/dev/null
+mkdir /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE >/dev/null 2>/dev/null
+cp $HOME2/out/* /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE/.
 
-rm -rf work
-rm -rf out
+rm -rf $HOME2/work
+rm -rf $HOME2/out
 
 rm -rf $PATH_LAST/*
 mkdir -p $PATH_LAST
