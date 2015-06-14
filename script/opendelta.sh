@@ -156,8 +156,8 @@ echo "  }" >> $DELTA
 echo "}" >> $DELTA
 
 mkdir /data/jenkins/workspace/ValidusRom/script/publish >/dev/null 2>/dev/null
-mkdir /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE >/dev/null 2>/dev/null
-cp $HOME2/out/* /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE/.
+# mkdir /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE >/dev/null 2>/dev/null
+cp $HOME2/out/* /data/jenkins/workspace/ValidusRom/script/publish/.
 
 rm -rf $HOME2/work
 rm -rf $HOME2/out
