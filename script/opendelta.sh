@@ -20,16 +20,16 @@ fi
 # ------ CONFIGURATION ------
 
 HOME=/data/jenkins/workspace/ValidusRom
-HOME2=/data/jenkins/workspace/ValidusRom/extra
+HOME2=/data/opendelta
 
 BIN_JAVA=java
-BIN_MINSIGNAPK=$HOME/delta/minsignapk.jar
-BIN_XDELTA=/data/jni/xdelta3-3.0.7/xdelta3
-BIN_ZIPADJUST=/data/jni/zipadjust
+BIN_MINSIGNAPK=$HOME2/lib/minsignapk.jar
+BIN_XDELTA=$HOME2/lib/xdelta3-3.0.7/xdelta3
+BIN_ZIPADJUST=$HOME2/lib/zipadjust
 
 FILE_MATCH=Validus-z3-*.zip
 PATH_CURRENT=$HOME/out/target/product/$DEVICE
-PATH_LAST=$HOME/delta/last/$DEVICE
+PATH_LAST=$HOME2/last/$DEVICE
 
 KEY_X509=$HOME/.keys/platform.x509.pem
 KEY_PK8=$HOME/.keys/platform.pk8
@@ -156,9 +156,9 @@ echo "      \"md5_official\": \"$MD5_CURRENT\"" >> $DELTA
 echo "  }" >> $DELTA
 echo "}" >> $DELTA
 
-mkdir /data/jenkins/workspace/ValidusRom/script/publish >/dev/null 2>/dev/null
-# mkdir /data/jenkins/workspace/ValidusRom/script/publish/$DEVICE >/dev/null 2>/dev/null
-cp $HOME2/out/* /data/jenkins/workspace/ValidusRom/script/publish/.
+mkdir $HOME2/publish >/dev/null 2>/dev/null
+mkdir $HOME2/publish/$DEVICE >/dev/null 2>/dev/null
+cp $HOME2/out/* $HOME2/publish/$DEVICE/.
 
 rm -rf $HOME2/work
 rm -rf $HOME2/out
