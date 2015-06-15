@@ -11,7 +11,7 @@ if [ "$VERSION" == "" ]; then
 fi
 		
 if [ "$DEVICE" == "" ]; then
-	if [ "$2"!= "" ]; then
+	if [ "$2" != "" ]; then
 		DEVICE=$2
 	fi
 fi
