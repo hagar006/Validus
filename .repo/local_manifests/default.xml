@@ -66,4 +66,12 @@
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 
+<!--Vatsal-->
+  <project path="device/motorola/titan" name="koradiavatsal/device_motorola_titan" remote="github" revision="validus" />
+  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
+    <!-- TheMuppets -->
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+
+
 </manifest>
