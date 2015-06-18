@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!--Our removed/needed stuff-->
+<!--Our removed/needed stuff
   <remove-project name="UBERTC/arm-linux-androideabi-4.8" />
   <remove-project name="UBERTC/arm-linux-androideabi-4.9" />
   <remove-project name="android_device_qcom_sepolicy" />
@@ -13,7 +13,7 @@
   <project path="vendor/validus" name="Gothdroid-Team-For-Xperia/vendor_validus" remote="github" revision="lp5.1" />
   <project path="packages/apps/Settings" name="Gothdroid-Team-For-Xperia/android_packages_apps_Settings" remote="github" revision="testing" />
   <project path="packages/apps/OpenDelta" name="Gothdroid-Team-For-Xperia/android_packages_apps_OpenDelta" remote="github" revision="lp5.1" />
-  <project path="device/qcom/sepolicy" name="Alx31/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
+  <project path="device/qcom/sepolicy" name="Alx31/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />-->
 
 <!--Vendors-->
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
