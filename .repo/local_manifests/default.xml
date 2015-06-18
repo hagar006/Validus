@@ -99,7 +99,6 @@
 
  <!--John--> 
   <project name="TV-LP51-Devices/device_moto_shamu" path="device/moto/shamu" remote="github" revision="lp5.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
   <project name="Validus-Kernel/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="lp5.1" />
 
 </manifest>
