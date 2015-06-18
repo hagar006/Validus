@@ -70,7 +70,6 @@
   <project path="device/motorola/titan" name="koradiavatsal/device_motorola_titan" remote="github" revision="validus" />
   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.1" />
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
-    <!-- TheMuppets -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
 
 <!--Marty-->
@@ -82,8 +81,11 @@
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
 
-<!--Adam-->
+<!--Adam&Rinky-->
   <project name="TV-LP51-Devices/device_lge_vs985" path="device/lge/vs985" remote="github" revision="lp5.1" />
+  <project name="TV-LP51-Devices/device_lge_d850" path="device/lge/d850" remote="github" revision="lp5.1" />
+  <project name="TV-LP51-Devices/device_lge_d851" path="device/lge/d851" remote="github" revision="lp5.1" />
+  <project name="TV-LP51-Devices/device_lge_d852" path="device/lge/d852" remote="github" revision="lp5.1" />
   <project name="TV-LP51-Devices/device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="lp5.1" />
   <project name="777jon/g3_kernel" path="kernel/lge/g3" remote="github" revision="lp-release" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
