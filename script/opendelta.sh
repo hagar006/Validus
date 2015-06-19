@@ -27,7 +27,7 @@ BIN_MINSIGNAPK=$HOME2/lib/minsignapk.jar
 BIN_XDELTA=$HOME2/lib/xdelta3-3.0.7/xdelta3
 BIN_ZIPADJUST=$HOME2/lib/zipadjust
 
-FILE_MATCH=Validus-z3-*.zip
+FILE_MATCH=Validus-$DEVICE-*.zip
 PATH_CURRENT=$HOME/out/target/product/$DEVICE
 PATH_LAST=$HOME2/last/$DEVICE
 
