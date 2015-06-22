@@ -9,6 +9,7 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
   <project path="device/qcom/sepolicy" name="Alx31/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,tools" remote="aosp" revision="master" />
 
 <!--Vendors-->
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
