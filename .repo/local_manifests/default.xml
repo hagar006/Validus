@@ -101,4 +101,11 @@
   <project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.1" />
   <project name="ArchiDroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gh" revision="cm-12.1" />
 
+<!--Yayo--> 
+  <project path="device/samsung/trltetmo" name="TV-LP51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
+  <project path="device/samsung/trlte-common" name="TV-LP51-Devices/device_samsung_trlte-common" remote="github" revision="lp5.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/trlte" name="CyanogenMod/android_kernel_samsung_trlte" remote="github" revision="cm-12.1" />
+
 </manifest>
