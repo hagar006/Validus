@@ -41,7 +41,7 @@ export KBUILD_BUILD_USER=ValidusBuilder
 #export KBUILD_BUILD_HOST=`hostname`
 
 
-if [ ${hostname} -eq "gothdroid.com" ]; then
+if [ ${hostname} == "gothdroid.com" ]; then
     export KBUILD_BUILD_HOST=Build-01
 else 
     export KBUILD_BUILD_HOST=Build-02
