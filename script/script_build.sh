@@ -38,15 +38,16 @@ export USE_CCACHE=1
 export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=ValidusBuilder
-export KBUILD_BUILD_HOST=Gothdroid.com
+#export KBUILD_BUILD_HOST=Gothdroid.com
 
 
 echo -e " You are using $ROUGE $JVM $NORMAL"
 
+
 # Return to home
 cd $home
 
-
+echo -e "$ROUGE $KBUILD_BUILD_HOST"
 echo -e "$ROUGE" 
 echo -e           "***********************************************************************"
 echo -e           "*                        Build Script                                 *"
