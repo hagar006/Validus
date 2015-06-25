@@ -40,7 +40,7 @@ export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=ValidusBuilder
 export KBUILD_BUILD_HOST=
 
-echo -e '$KBUILD_BUILD_HOST'
+echo -e 'KBUILD_BUILD_HOST'
 
 
 echo -e " You are using $ROUGE $JVM $NORMAL"
