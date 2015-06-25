@@ -38,18 +38,14 @@ export USE_CCACHE=1
 export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=ValidusBuilder
-#export KBUILD_BUILD_HOST=`hostname`
+
+# KBUILD_BUILD_HOST adjust depending on the build server used (master or slave)
 HOST=`hostname`
-
-
 if [ $HOST = "gothdroid.com" ]; then
     export KBUILD_BUILD_HOST=Build-01
 else 
     export KBUILD_BUILD_HOST=Build-02
 fi
-
-echo -e "${KBUILD_BUILD_HOST}"
-
 
 echo -e " You are using $ROUGE $JVM $NORMAL"
 
