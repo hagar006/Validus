@@ -40,6 +40,13 @@ export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=ValidusBuilder
 export KBUILD_BUILD_HOST=`hostname`
 
+
+if [ ${KBUILD_BUILD_HOST} -eq gothdroid.com ]; then
+    export KBUILD_BUILD_HOST=Build-01
+else 
+    export KBUILD_BUILD_HOST=Build-02
+fi
+
 echo -e "${KBUILD_BUILD_HOST}"
 
 
