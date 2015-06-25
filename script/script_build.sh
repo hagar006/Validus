@@ -39,9 +39,10 @@ export CCACHE_DIR=/data/ccache/jenkins/ValidusRom
 export VALIDUS_BUILDTYPE=OFFICIAL
 export KBUILD_BUILD_USER=ValidusBuilder
 #export KBUILD_BUILD_HOST=`hostname`
+HOST=`hostname`
 
 
-if [ ${hostname} == "gothdroid.com" ]; then
+if [ $HOST = "gothdroid.com" ]; then
     export KBUILD_BUILD_HOST=Build-01
 else 
     export KBUILD_BUILD_HOST=Build-02
