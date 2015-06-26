@@ -255,9 +255,6 @@ echo -e           "*                     Applying OpenDelta Configuration       
 echo -e           "***********************************************************************"
 echo -e "$NORMAL"
 
-#!/bin/bash
-
-# addcomment for test OTA
 # Script to generate delta files for OpenDelta - by Jorrit 'Chainfire' Jongma
 # Modified by Gothdroid to adapt on Validus Rom for Team GZR
 
