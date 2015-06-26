@@ -26,10 +26,6 @@ BLANCLAIR="\\033[1;08m"
 JAUNE="\\033[1;33m"
 CYAN="\\033[1;36m"
 
-DEVICE="$1"
-VERSION="$2"
-DAY="$(date +%Y%m%d)"
-
 JVM=`java -version`
 
 # Define home and rom
@@ -141,6 +137,9 @@ if [ "$#" -ne 1 ]; then
     howto
 fi
 
+DEVICE="$1"
+VERSION="$2"
+DAY="$(date +%Y%m%d)"
 
 # Build_Type option
 if [ "$opt_off" -eq 2 ]; then
