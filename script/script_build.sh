@@ -138,8 +138,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 DEVICE="$1"
-VERSION="$2"
-DAY="$(date +%Y%m%d)"
+
 
 # Build_Type option
 if [ "$opt_off" -eq 2 ]; then
@@ -242,6 +241,8 @@ echo -e           "*                        Rename of ZIP                       
 echo -e           "***********************************************************************"
 echo -e "$NORMAL"
 
+VERSION="$2"
+DAY="$(date +%Y%m%d)"
 HOME=/data/jenkins/workspace/ValidusRom
 
 cd $HOME/out/target/product/$DEVICE
