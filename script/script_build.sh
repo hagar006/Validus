@@ -421,5 +421,21 @@ rm -rf $PATH_LAST/*
 mkdir -p $PATH_LAST
 cp $PATH_CURRENT/$FILE_CURRENT $PATH_LAST/$FILE_CURRENT
 
+echo -e "$ROUGE" 
+echo -e           "***********************************************************************"
+echo -e           "*            Synchronize folder in case of build in slave             *"                         
+echo -e           "***********************************************************************"
+echo -e "$NORMAL"
+
+if [ $HOST != "gothdroid.com" ]; then
+	source $HOME/script/scp-except.sh
+	source $HOME/script/scp-expect2.sh
+fi
+
+echo -e "$ROUGE" 
+echo -e           "***********************************************************************"
+echo -e           "*                     Thanks to use my script ;)                      *"                         
+echo -e           "***********************************************************************"
+echo -e "$NORMAL"
 
 exit 0             
