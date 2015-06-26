@@ -26,9 +26,9 @@ BLANCLAIR="\\033[1;08m"
 JAUNE="\\033[1;33m"
 CYAN="\\033[1;36m"
 
-DEVICE=$1
-VERSION=$2
-DAY=$(date +%Y%m%d)
+DEVICE="$1"
+VERSION="$2"
+DAY="$(date +%Y%m%d)"
 
 JVM=`java -version`
 
@@ -140,7 +140,7 @@ shift $((OPTIND-1))
 if [ "$#" -ne 1 ]; then
     howto
 fi
-device="$1"
+
 
 # Build_Type option
 if [ "$opt_off" -eq 2 ]; then
@@ -161,8 +161,8 @@ fi
 
 # Chromium options
 if [ "$opt_chromium" -eq 1 ]; then
-    rm -rf prebuilts/chromium/"$device"
-    echo -e "$BLEU Prebuilt Chromium for $device removed $NORMAL"
+    rm -rf prebuilts/chromium/"$DEVICE"
+    echo -e "$BLEU Prebuilt Chromium for $DEVICE removed $NORMAL"
     echo ""
 elif [ "$opt_chromium" -eq 2 ]; then
     unset USE_PREBUILT_CHROMIUM
@@ -178,7 +178,7 @@ if [ "$opt_clean" -eq 1 ]; then
     echo ""
 elif [ "$opt_clean" -eq 2 ]; then
     . build/envsetup.sh
-    lunch "validus_$device-userdebug"
+    lunch "validus_$DEVICE-userdebug"
     make installclean >/dev/null
     echo -e "$BLEU Output directory is: $ROUGE Dirty $NORMAL"
     echo ""
@@ -223,15 +223,15 @@ echo -e "$BLEU ${line} $NORMAL"
 echo -e "$BLEU ${line} $NORMAL"
 
 # This will create a new build.prop with updated build time and date
-rm -f "$OUTDIR"/target/product/"$device"/system/build.prop
+rm -f "$OUTDIR"/target/product/"$DEVICE"/system/build.prop
 
 # This will create a new .version for kernel version is maintained on one
-rm -f "$OUTDIR"/target/product/"$device"/obj/KERNEL_OBJ/.version
+rm -f "$OUTDIR"/target/product/"$DEVICE"/obj/KERNEL_OBJ/.version
 
 # Lunch device
 echo ""
 echo -e "$ROUGE Lunching device $NORMAL"
-lunch "validus_$device-userdebug"
+lunch "validus_$DEVICE-userdebug"
 
 echo -e "$ROUGE Starting compilation: $BLEU Building Validus $device $NORMAL"
     echo ""
