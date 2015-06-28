@@ -6,8 +6,6 @@ DEVICE=$1
 
 set timeout 3600
 
-spawn scp /data/opendelta/publish/$DEVICE/* gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
-expect "password:"
-send -- "AmyLee$33450\r"
+spawn scp /data/opendelta/publish/$DEVICE/* -p 5212 gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
 expect "100%"
 exit 0
