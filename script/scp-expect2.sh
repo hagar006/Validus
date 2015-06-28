@@ -1,24 +1,17 @@
 #!/usr/bin/expect -f
 
 DEVICE=$1
-
-# effectue le transfert par SCP (sur SSH)
-
-set timeout 3600
-
-#connect and delete old build
+# Defini le temps avant d'envoyer le mot de passe
+set timeout 3
+ 
 spawn ssh -p 5212 gothdroid@gothdroid.com
-expect "password:"
-send -- "AmyLee$33450\r"
-expect "100%"
+interact
 
 cd /data/opendelta/last/$DEVICE
 rm -rf *
+exit
 
-#connect and copy new build to keep folder up to date
-spawn scp /data/opendelta/last/$DEVICE/*.zip gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
-expect "password:"
-send -- "AmyLee$33450\r"
+
+spawn scp /data/opendelta/last/$DEVICE/*zip -p 5212 gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
 expect "100%"
-
 exit 0
