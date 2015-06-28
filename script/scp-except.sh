@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-$DEVICE=$1
+DEVICE=$1
 
 # effectue le transfert par SCP (sur SSH)
 
