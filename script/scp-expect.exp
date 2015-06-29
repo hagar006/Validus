@@ -6,6 +6,10 @@ set DEVICE [lindex $argv 0]
 
 set timeout 3600
 
-spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
+spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.delta  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
+expect "100%"
+spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.sign  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
+expect "100%"
+spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.update  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
 expect "100%"
 exit 0
