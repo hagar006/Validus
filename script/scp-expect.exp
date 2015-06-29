@@ -2,14 +2,20 @@
 
 set DEVICE [lindex $argv 0]
 
-# effectue le transfert par SCP (sur SSH)
+# effectue le transfert par SFTP (sur SSH)
 
 set timeout 3600
 
-spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.delta  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
-expect "100%"
-spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.sign  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
-expect "100%"
-spawn scp -P 5212 /data/opendelta/publish/$DEVICE/*.update  gothdroid@gothdroid.com:/data/opendelta/publish/$DEVICE/
-expect "100%"
+spawn sftp gothdroid@gothdroid.com
+expect "*sword*"
+send -- "AmyLee$33450\n"
+expect "sftp>"
+send -- "cd /data/opendelta/last/$DEVICE\n"
+send "lcd /data/opendelta/last/$DEVICE\n"
+send -- "rm /data/opendelta/last/$DEVICE/*.zip\n"
+send -- "ls\n"
+send -- "put *.zip\n"
+send -- "ls\n"
+send -- "bye\n"
+
 exit 0
