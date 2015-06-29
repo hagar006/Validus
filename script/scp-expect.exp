@@ -6,9 +6,9 @@ set DEVICE [lindex $argv 0]
 
 set timeout 3600
 
-spawn sftp gothdroid@gothdroid.com
+spawn sftp -oPort 5212 gothdroid@gothdroid.com
 expect "*sword*"
-send -- "AmyLee$33450\n"
+send -- "AmyLee\$33450\n"
 expect "sftp>"
 send -- "cd /data/opendelta/last/$DEVICE\n"
 send "lcd /data/opendelta/last/$DEVICE\n"
