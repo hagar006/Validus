@@ -428,8 +428,9 @@ echo -e           "*************************************************************
 echo -e "$NORMAL"
 
 if [ $HOST != "gothdroid.com" ]; then
-	source $HOME/script/scp-expect.exp $DEVICE
-	source $HOME/script/scp-expect2.exp $DEVICE
+	cd $HOME/script
+	./scp-expect.exp $DEVICE
+	./scp-expect2.exp $DEVICE
 fi
 
 echo -e "$ROUGE" 
