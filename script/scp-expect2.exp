@@ -16,6 +16,6 @@ expect "#"
 exit
 
 
-spawn scp /data/opendelta/last/$DEVICE/*zip -P 5212 gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
+spawn scp -P 5212 /data/opendelta/last/$DEVICE/*zip  gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
 expect "100%"
 exit 0
