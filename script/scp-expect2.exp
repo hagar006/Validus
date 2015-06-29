@@ -10,8 +10,8 @@ interact
 
 expect "#"
 
-cd /data/opendelta/last/$DEVICE
-rm -rf *.zip
+system "cd /data/opendelta/last/$DEVICE"
+system "rm -rf *.zip"
 expect "#"
 exit
 
