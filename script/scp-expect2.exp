@@ -8,11 +8,14 @@ set timeout 3
 spawn ssh -p 5212 gothdroid@gothdroid.com
 interact
 
+expect "#"
+
 cd /data/opendelta/last/$DEVICE
-rm -rf *
+rm -rf *.zip
+expect "#"
 exit
 
 
-spawn scp /data/opendelta/last/$DEVICE/*zip -p 5212 gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
+spawn scp /data/opendelta/last/$DEVICE/*zip -P 5212 gothdroid@gothdroid.com:/data/opendelta/last/$DEVICE/
 expect "100%"
 exit 0
