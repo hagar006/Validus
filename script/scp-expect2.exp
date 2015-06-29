@@ -1,6 +1,7 @@
 #!/usr/bin/expect -f
 
-DEVICE=$1
+set DEVICE [lindex $argv 0]
+
 # Defini le temps avant d'envoyer le mot de passe
 set timeout 3
  
