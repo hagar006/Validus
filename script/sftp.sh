@@ -10,7 +10,7 @@ UPDATE=Validus-*.update
 	cd /data/opendelta/publish/$DEVICE
 	
 	lftp<<END_SCRIPT
-	open sftp://gothdroid.com
+	open sftp://gothdroid.com:5112
 	user gothdroid AmyLee$33450
 	cd /data/opendelta/publish/$DEVICE
 	mput *
