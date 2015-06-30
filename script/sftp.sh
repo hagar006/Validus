@@ -9,14 +9,8 @@ UPDATE=Validus-*.update
 	echo -e "Starting transfert"
 	cd /data/opendelta/publish/$DEVICE
 	
-	lftp<< END_SCRIPT
-	open sftp://gothdroid.com:5112
-	user gothdroid
-	pass AmyLee$33450
+	sftp -oPort=5112 gothdroid@gothdroid.com <<EOF
 	cd /data/opendelta/publish/$DEVICE
-	mput *
+	put *
 	bye
-	END_SCRIPT
-	
-	
-	
+	EOF
