@@ -14,7 +14,7 @@ UPDATE=Validus-*.update
 	cd /data/opendelta/publish/$DEVICE
 	mput *
 	bye
-	`END_SCRIPT'
+	END_SCRIPT
 	
 	
 	
