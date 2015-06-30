@@ -428,9 +428,9 @@ echo -e           "*************************************************************
 echo -e "$NORMAL"
 
 if [ $HOST != "gothdroid.com" ]; then
+	
 	cd $HOME/script
-	./scp-expect.exp $DEVICE
-	./scp-expect2.exp $DEVICE
+		./sftp.sh $DEVICE
 fi
 
 echo -e "$ROUGE" 
