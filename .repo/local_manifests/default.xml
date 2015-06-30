@@ -52,7 +52,7 @@
 <!--Kernels-->
   <!--Sony-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
-  <project path="kernel/sony/msm8974" name="TV-LP51-Devices/kernel_sony_msm8974" remote="github" revision="lp5.1_kexec" />
+  <project path="kernel/sony/msm8974" name="TV-LP51-Devices/kernel_sony_msm8974" remote="github" revision="m5kernel" />
   <project path="kernel/sony/msm8930" name="rohanpurohit/android_kernel_sony_msm8930" remote="github" revision="5.1-stable" />
   <!--Google-->
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.1" />
