@@ -95,12 +95,12 @@
   <project name="Validus-Kernel/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="lp5.1" />
 
 <!--Andrea--> 
-  <project name="TV-LP51-Devices/device_samsung_i9300" path="device/samsung/i9300" remote="gh" revision="lp5.1"  />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="gh" revision="cm-12.1" />
-  <project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-12.1" />
-  <project name="ArchiDroid/ArchiKernel" path="kernel/samsung/smdk4412" remote="gh" revision="smdk4412" />
-  <project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.1" />
-  <project name="ArchiDroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gh" revision="cm-12.1" />
+  <project path="device/samsung/i9300" name="TV-LP51-Devices/device_samsung_i9300" remote="github" revision="lp5.1"  />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.1" />
+  <project path="hardware/samsung" name="ArchiDroid/android_hardware_samsung" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/smdk4412" name="ArchiDroid/ArchiKernel" remote="github" revision="smdk4412" />
+  <project path="vendor/samsung" name="ArchiDroid/proprietary_vendor_samsung" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/smdk4412-common" name="ArchiDroid/android_device_samsung_smdk4412-common" remote="github" revision="cm-12.1" />
 
 <!--Yayo--> 
   <project path="device/samsung/trltetmo" name="TV-LP51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
