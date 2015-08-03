@@ -33,7 +33,7 @@
   <!--Nexus-->
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <!--YU-->
-  <project path="device/yu/tomato" name="TV-LP51-Devices/device_yu_tomato" remote="github" revision="lp5.1-new" />
+  <project path="device/yu/tomato" name="Sohamlad7/android_device_yu_tomato" remote="github" revision="lp5.1" />
   
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="m5_bootsplash" />
