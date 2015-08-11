@@ -208,6 +208,9 @@ if [ "$opt_sync" -eq 1 ]; then
             fi
 cd $home
     # implementation of any amendments to the default.xml and initiating synchronization
+        rm -rf .repo/repo
+        repo init -u git://github.com/TV-LP51/android.git -b lp5.1
+        git stash
         git pull && repo sync -j"$opt_jobs"
         echo ""
 else 
