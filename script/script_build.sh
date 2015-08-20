@@ -211,7 +211,7 @@ cd $home
         rm -rf .repo/repo
         repo init -u git://github.com/TV-LP51/android.git -b lp5.1
         git stash
-        git pull && repo sync --force-sync -j"$opt_jobs"
+        git pull && repo sync --force-sync -j"$opt_jobs" && repo sync -j"$opt_jobs"
         echo ""
 else 
         echo -e "$BLEU No repo sync $NORMAL"
