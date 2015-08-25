@@ -15,7 +15,6 @@
   <project path="vendor/sony" name="Alx31/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
-  <project path="vendor/yu" name="TheMuppets/proprietary_vendor_yu" remote="github" revision="cm-12.1" />
 
 <!--Devices-->
   <!--Sony-->
@@ -25,15 +24,9 @@
   <project path="device/sony/sirius" name="TV-LP51-Devices/device_sony_sirius" remote="github" revision="lp5.1" />
   <project path="device/sony/odin" name="TV-LP51-Devices/device_sony_odin" remote="github" revision="lp5.1" />
   <project path="device/sony/pollux_windy" name="TV-LP51-Devices/device_sony_pollux_windy" remote="github" revision="lp5.1" />
-  <project path="device/sony/pollux" name="TV-LP51-Devices/device_sony_pollux" remote="github" revision="lp5.1" />
-  <project path="device/sony/honami" name="TV-LP51-Devices/device_sony_honami" remote="github" revision="lp5.1" />
-  <project path="device/sony/amami" name="TV-LP51-Devices/device_sony_amami" remote="github" revision="lp5.1" />
-  <project path="device/sony/togari" name="TV-LP51-Devices/device_sony_togari" remote="github" revision="lp5.1" />
   <project path="device/sony/taoshan" name="rohanpurohit/device_sony_taoshan" remote="github" revision="lp5.1" />
   <!--Nexus-->
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
-  <!--YU-->
-  <project path="device/yu/tomato" name="Sohamlad7/android_device_yu_tomato" remote="github" revision="lp5.1" />
   
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
@@ -46,7 +39,6 @@
 <!--Devices commons-->
   <project path="device/sony/fusion3-common" name="TV-LP51-Devices/device_sony_fusion3-common" remote="github" revision="lp5.1" />
   <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
-  <project path="device/sony/rhine-common" name="TV-LP51-Devices/device_sony_rhine-common" remote="github" revision="lp5.1" />
   <project path="device/cyanogen/msm8939-common" name="Sohamlad7/android_device_cyanogen_msm8939-common" remote="github" revision="lp5.1" />
   
 <!--Kernels-->
@@ -56,8 +48,6 @@
   <project path="kernel/sony/msm8930" name="rohanpurohit/android_kernel_sony_msm8930" remote="github" revision="5.1-stable" />
   <!--Google-->
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.1" />
-  <!--YU-->
-  <project path="kernel/cyanogen/msm8916" name="CyanogenMod/android_kernel_cyanogen_msm8916" remote="github" revision="cm-12.1" />
 
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
