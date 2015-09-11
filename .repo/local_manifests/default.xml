@@ -29,7 +29,7 @@
   <!--Nexus-->
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <!--Samsung-->
-  <project path="device/samsung/trltetmo" name="TV-LP-51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
+  <project path="device/samsung/trltetmo" name="TV-LP51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
   <project path="device/samsung/trltespr" name="TV-LP-51-Devices/device_samsung_trltespr" remote="github" revision="lp5.1" />
   <project path="device/samsung/trltexx" name="TV-LP-51-Devices/device_samsung_trltexx" remote="github" revision="lp5.1" />
 <!--Misc needs-->
@@ -51,7 +51,7 @@
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="github" revision="cm-12.1" />
   <project path="kernel/sony/msm8930" name="rohanpurohit/android_kernel_sony_msm8930" remote="github" revision="5.1-stable" />
   <!--Samsung-->
-  <project path="kernel/samsung/apq8084" name="TV-LP51-Devices/android_kernel_samsung_apq8084"  remote="github" revision="lp5.1" />
+  <project path="kernel/samsung/trlte" name="TV-LP51-Devices/android_kernel_samsung_trlte"  remote="github" revision="lp5.1" />
   <!--Google-->
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.1" />
 <!--Sony Sensors-->
