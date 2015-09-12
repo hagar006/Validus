@@ -29,8 +29,8 @@
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <!--Samsung-->
   <project path="device/samsung/trltetmo" name="TV-LP51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
-  <project path="device/samsung/trltespr" name="TV-LP-51-Devices/device_samsung_trltespr" remote="github" revision="lp5.1" />
-  <project path="device/samsung/trltexx" name="TV-LP-51-Devices/device_samsung_trltexx" remote="github" revision="lp5.1" />
+  <project path="device/samsung/trltespr" name="TV-LP51-Devices/device_samsung_trltespr" remote="github" revision="lp5.1" />
+  <project path="device/samsung/trltexx" name="TV-LP51-Devices/device_samsung_trltexx" remote="github" revision="lp5.1" />
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
