@@ -38,7 +38,7 @@
   <project path="device/sony/msm8974-common" name="TV-LP51-Devices/device_sony_msm8974-common" remote="github" revision="lp5.1" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
   <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" remote="github" revision="cm-12.1" />
-  <project path="device/samsung/qcom/common" name="CyanogenMod/android_device_samsung_qcom_common" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
 <!--Devices commons-->
   <project path="device/sony/fusion3-common" name="TV-LP51-Devices/device_sony_fusion3-common" remote="github" revision="lp5.1" />
   <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
