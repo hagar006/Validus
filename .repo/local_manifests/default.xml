@@ -25,7 +25,6 @@
   <project path="device/sony/sirius" name="TV-LP51-Devices/device_sony_sirius" remote="github" revision="lp5.1" />
   <project path="device/sony/odin" name="TV-LP51-Devices/device_sony_odin" remote="github" revision="lp5.1" />
   <project path="device/sony/pollux_windy" name="TV-LP51-Devices/device_sony_pollux_windy" remote="github" revision="lp5.1" />
-  <project path="device/sony/taoshan" name="rohanpurohit/device_sony_taoshan" remote="github" revision="lp5.1" />
   <!--Nexus-->
   <project path="device/lge/mako" name="TV-LP51-Devices/device_lge_mako" remote="github" revision="lp5.1" />
   <!--Samsung-->
