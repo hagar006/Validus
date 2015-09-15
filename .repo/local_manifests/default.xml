@@ -16,6 +16,7 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.1" />
+  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-12.1" />
 
 <!--Devices-->
   <!--Sony-->
@@ -31,6 +32,9 @@
   <project path="device/samsung/trltetmo" name="TV-LP51-Devices/device_samsung_trltetmo" remote="github" revision="lp5.1" />
   <project path="device/samsung/trltespr" name="TV-LP51-Devices/device_samsung_trltespr" remote="github" revision="lp5.1" />
   <project path="device/samsung/trltexx" name="TV-LP51-Devices/device_samsung_trltexx" remote="github" revision="lp5.1" />
+  <!-- Google -->
+  <project path="device/google/sprout4" name="hafeez90/android_device_google_sprout4" remote="github" revision="validus" />
+
 <!--Misc needs-->
   <project path="device/sony/common" name="Alx31/android_device_sony_common" remote="github" revision="cm-12.1" />
   <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="github" revision="cm-12.1" />
@@ -44,6 +48,7 @@
   <project path="device/sony/shinano-common" name="TV-LP51-Devices/device_sony_shinano-common" remote="github" revision="lp5.1" />
   <project path="device/cyanogen/msm8939-common" name="Sohamlad7/android_device_cyanogen_msm8939-common" remote="github" revision="lp5.1" />
   <project path="device/samsung/trlte-common" name="TV-LP51-Devices/device_samsung_trlte-common" remote="github" revision="lp5.1" />
+  <project path="device/google/sprout-common" name="CyanogenMod/android_device_google_sprout-common" revision="cm-12.1" remote="github" />
 <!--Kernels-->
   <!--Sony-->
   <project path="kernel/sony/apq8064" name="EvoMix/kernel_apq8064" remote="github" revision="EvoMix" />
@@ -53,6 +58,8 @@
   <project path="kernel/samsung/trlte" name="TV-LP51-Devices/android_kernel_samsung_trlte"  remote="github" revision="lp5.1" />
   <!--Google-->
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.1" />
+  <project path="kernel/mediatek/sprout" name="akhilnarang/android_kernel_mediatek_sprout" remote="github" revision="validus" />
+
 <!--Sony Sensors-->
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
 <!--Shamu--> 
